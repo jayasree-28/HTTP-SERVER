@@ -1,0 +1,50 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 1040
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Send Message</title>
+  <style>
+    body {
+      font-family: Calibri, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 100px;
+      background: #f2f2f2;
+    }
+    form {
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px #ccc;
+    }
+    input[type="text"] {
+      padding: 10px;
+      font-size: 20px;
+      width: 300px;
+      margin-bottom: 20px;
+    }
+    input[type="submit"] {
+      padding: 10px 20px;
+      font-size: 20px;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <form action="./thankyou.html" method="post">
+    <label for="main-input">Send some love:</label><br>
+    <input type="text" id="main-input" name="msg"><br>
+    <input type="submit" value="Send">
+  </form>
+</body>
+</html>
