@@ -15,14 +15,7 @@ A basic HTTP/1.1 web server implemented in pure C using the **Winsock API**, cap
 - Logs client messages and request method to console  
 - Modular structure with functions for request parsing, file reading, and client handling
 
----
-▶️ How to Run
 
-Platform: Windows (built using Winsock)
-
-Compiler: Use any C compiler (e.g. gcc, MSVC)
-
-Open your browser and go to: http://localhost:5500
 
 ---
 🛠 Technologies Used
